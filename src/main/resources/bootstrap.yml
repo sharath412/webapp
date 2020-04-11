@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: webapp
+  cloud:
+    consul:
+      discovery:
+        enabled: true
