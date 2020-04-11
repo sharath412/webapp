@@ -3,5 +3,6 @@ spring:
     name: webapp
   cloud:
     consul:
+      host: consul
       discovery:
         enabled: true
