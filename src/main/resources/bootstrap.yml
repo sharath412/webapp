@@ -9,3 +9,4 @@ spring:
         enabled: false
       discovery:
         enabled: true
+        instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${random.int[1,999999]}"
