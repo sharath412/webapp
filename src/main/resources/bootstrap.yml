@@ -9,3 +9,5 @@ spring:
         enabled: false
       discovery:
         enabled: true
+        prefer-ip-address: true
+
